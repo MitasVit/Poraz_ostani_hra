@@ -7,11 +7,11 @@ mitas.vit@gmail.com.
 
 
 
-Ostrov Kostrov is copyright (c) 2020 by MitasVit. This copyright 
+Poraz_ostatni_hra is copyright (c) 2020 by MitasVit. This copyright 
 notice applies to all documents in the Ostrov Kostrov source code archive, 
 except as otherwise noted. 
 
-The Ostrov Kotsrov documentation is licensed under the Creative Commons
+The Poraz_ostatni_hra documentation is licensed under the Creative Commons
 Attribution 3.0 license: https://creativecommons.org/licenses/by/3.0/legalcode .
 
 All trademarks are provided by Mitas Vit.
