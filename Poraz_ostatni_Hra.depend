@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1606898660 source:c:\users\uzivatel\desktop\vita-projecty\c++programuju\c++ 2,0\poraz_ostatni_hra\main.cpp
+	<iostream>
+	<time.h>
+	<conio.h>
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+	<windows.h>
+
+1605280107 source:c:\users\andrl\desktop\poraz_ostatni_hra (2)\poraz_ostatni_hra\main.cpp
+	<iostream>
+	<time.h>
+	<conio.h>
+	<stdio.h>
+	<stdlib.h>
+	<vector>
+	<iomanip>
+	<fstream>
+
