@@ -15,9 +15,9 @@ string jmeno2;
 string NacJmeno;
 string otazka;
 
-int  zivot1 = 3;
-int zivot2 = 3;
-int zivot3 = 3;
+int  zivot1 = 5;
+int zivot2 = 5;
+int zivot3 = 5;
 int rana = 1;
 int kdoH = 1;
 int utokna;
@@ -112,6 +112,7 @@ void uvod(){
             cout << "\n\nNacitam data...";
             casovac(1);
             Hjmeno = NacJmeno;
+            vygenerujJmeno();
         }else{
             cout << "       Zadej svoje jmeno:  " ;
             cin >> Hjmeno;
@@ -188,10 +189,10 @@ void utok(){
         }
     }
 
-    void konec(){
+void konec(){
     cout << "Zazvonil zvonec a hry je konec :)\n";
     if(zivot1 > zivot2 && zivot2 < zivot3 && zivot1 > zivot3){
-        cout << "Vyhral jsi !!" << "\n Gratuluju!\n";
+        MessageBox(NULL, "Vyhrál jsi.Gratuluju!!", "Info", MB_OK);
         cout << "Zadejte  end pro ukonceni\n" << endl;
         string prikaz;
         cin >> prikaz;
@@ -199,7 +200,8 @@ void utok(){
             Konecek =true;
         }
     }else if(zivot2 > zivot1 && zivot1 < zivot3 && zivot2 > zivot3){
-        cout << "Vyhral " << jmeno1 << "!!" << "\n Gratuluju!\n";
+        MessageBox(NULL, "Vyhrál poèítaè, nevadí", "Info", MB_OK);
+        cout << "info - vyhral: "<< jmeno1 << endl;
         cout << "Nevadi mel jsi  " << zivot1 << "  zivotu\n";
         cout << "Zadejte  end pro ukonceni\n " << endl;
         string prikaz;
@@ -208,7 +210,8 @@ void utok(){
             Konecek =true;
         }
     }else{
-        cout << "Vyhral " << jmeno2 <<"!!" << "\n Gratuluju!\n";
+        MessageBox(NULL, "Vyhrál poèítaè, nevadí", "Info", MB_OK);
+        cout << "info - vyhral: " << jmeno2 << endl;
         cout << "Nevadi mel jsi  " << zivot1 << "  zivotu\n";
         cout << "Zadejte  end pro ukonceni\n" << endl;
         string prikaz;
